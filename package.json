@@ -1,0 +1,49 @@
+{
+  "name": "@quority/template",
+  "version": "4.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "files": [
+    "dist/**",
+    "!dist/demo/**",
+    "!dist/tests/**"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.js"
+    }
+  },
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "lint": "eslint src/ --ext .ts --cache",
+    "lint:fix": "eslint src/ --fix --ext .ts --cache",
+    "hooks": "husky install .github/husky"
+  },
+  "author": "bitomic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quority/template.git"
+  },
+  "homepage": "https://github.com/quority/template#readme",
+  "devDependencies": {
+    "@types/fs-extra": "11.0.1",
+    "@types/mocha": "10.0.0",
+    "@types/node": "18.11.9",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "eslint": "8.27.0",
+    "husky": "8.0.2",
+    "lint-staged": "^13.0.3",
+    "mocha": "10.1.0",
+    "rimraf": "3.0.2",
+    "ts-dotenv": "^0.9.0",
+    "tsup": "^6.5.0",
+    "typescript": "4.8.4"
+  },
+  "packageManager": "yarn@3.2.4",
+  "publishConfig": {
+    "access": "public"
+  }
+}
