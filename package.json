@@ -1,12 +1,13 @@
 {
-  "name": "@quority/template",
-  "version": "4.0.0",
+  "name": "@quority/wikitext",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
   "files": [
     "dist/**",
     "!dist/demo/**",
-    "!dist/tests/**"
+    "!dist/tests/**",
+    "grammars/**"
   ],
   "exports": {
     ".": {
@@ -24,10 +25,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quority/template.git"
+    "url": "https://github.com/quority/wikitext.git"
   },
-  "homepage": "https://github.com/quority/template#readme",
+  "homepage": "https://github.com/quority/wikitext#readme",
   "devDependencies": {
+    "@quority/core": "^4.0.3",
     "@types/fs-extra": "11.0.1",
     "@types/mocha": "10.0.0",
     "@types/node": "18.11.9",
@@ -45,5 +47,8 @@
   "packageManager": "yarn@3.2.4",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "peggy": "^3.0.1"
   }
 }

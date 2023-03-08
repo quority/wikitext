@@ -12,7 +12,7 @@
 
 			"runtimeExecutable": "yarn",
 			"cwd": "${workspaceFolder}",
-			"runtimeArgs": ["start"]
+			"runtimeArgs": ["node dist/test"]
 		}
 	]
 }

@@ -3,9 +3,9 @@ import { defineConfig } from 'tsup'
 export default defineConfig( {
 	clean: true,
 	dts: true,
-	entry: [ 'src/main.ts', 'src/tests/Controllers.ts' ],
+	entry: [ 'src/main.ts', 'src/test.ts' ],
 	format: [ 'cjs', 'esm' ],
-	minify: true,
+	minify: false,
 	sourcemap: true,
 	splitting: true,
 	treeshake: true,
