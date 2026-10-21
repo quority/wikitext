@@ -108,6 +108,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@peggyjs/from-mem@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@peggyjs/from-mem@npm:4.0.0"
+  dependencies:
+    semver: ~7.8.5
+  checksum: 3491ea1736a41a977b029a67ada4b2124f0d398cadcabfe6c71f8642e8aaaa66fcf672a94c041097e10ca1c274ab91bc1b4c087b490101a5e9577fae0e5e939a
+  languageName: node
+  linkType: hard
+
 "@quority/core@npm:^4.0.3":
   version: 4.0.3
   resolution: "@quority/core@npm:4.0.3"
@@ -134,7 +143,7 @@ __metadata:
     husky: 8.0.2
     lint-staged: ^13.0.3
     mocha: 10.1.0
-    peggy: ^3.0.1
+    peggy: ^5.1.1
     rimraf: 3.0.2
     ts-dotenv: ^0.9.0
     tsup: ^6.5.0
@@ -739,10 +748,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "commander@npm:10.0.0"
-  checksum: 9f6495651f878213005ac744dd87a85fa3d9f2b8b90d1c19d0866d666bda7f735adfd7c2f10dfff345782e2f80ea258f98bb4efcef58e4e502f25f883940acfd
+"commander@npm:^14.0.3":
+  version: 14.0.3
+  resolution: "commander@npm:14.0.3"
+  checksum: b8440159124aefbb02784a8996cd0481d8ce503d8d3cd413f4289d06db7e912c36b511277c2faba62f59152dd9ff79239d75e3b9400d9402851878994201d429
   languageName: node
   linkType: hard
 
@@ -2479,15 +2488,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"peggy@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "peggy@npm:3.0.1"
+"peggy@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "peggy@npm:5.1.1"
   dependencies:
-    commander: ^10.0.0
-    source-map-generator: 0.8.0
+    "@peggyjs/from-mem": 4.0.0
+    commander: ^14.0.3
+    source-map-generator: 2.0.7
   bin:
     peggy: bin/peggy.js
-  checksum: 8d96d10e38c6c3ed599ce7c41d65669c6da85b0375fa5ec7496ff90968522f6fb5e87c57aeb2538e5741040d73b476d7730f6d28c6585f5402a73366a6daf6cd
+  checksum: 76712f384d33a77b656507f0c1157bb42a1b63bd321a31bf7e5378d4da1143e68a16e83aad0837102268719c0281598a39e0953e9ffbbd49f11b9a9d9751ad9a
   languageName: node
   linkType: hard
 
@@ -2765,6 +2775,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:~7.8.5":
+  version: 7.8.5
+  resolution: "semver@npm:7.8.5"
+  bin:
+    semver: bin/semver.js
+  checksum: 0c580f17e88e2b45806dc5cf3d824f719c946999d3554bf30307c2b68b3300ab3c8bfcd84d8f489b93b4cbb5362f5fc8de4d2858954f18d834253c4450fc9f6b
+  languageName: node
+  linkType: hard
+
 "serialize-javascript@npm:6.0.0":
   version: 6.0.0
   resolution: "serialize-javascript@npm:6.0.0"
@@ -2878,10 +2897,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-generator@npm:0.8.0":
-  version: 0.8.0
-  resolution: "source-map-generator@npm:0.8.0"
-  checksum: 15e7854c04a4b1bc8a477664a65c58316d792fb24a7b427219ac597eed7f57a3905637c783126b123cf05f9d4fdc45a8fadb8bc2fbf010a82d92e35c193aba51
+"source-map-generator@npm:2.0.7":
+  version: 2.0.7
+  resolution: "source-map-generator@npm:2.0.7"
+  checksum: c46d7f92b6db0b2d8a91466755867fc9b9d49b085edaef512859d248862dd0dd1de0254f3a70410154361d6cef1f59160e772eb2dc241fd7db4972856d0eed11
   languageName: node
   linkType: hard
 
